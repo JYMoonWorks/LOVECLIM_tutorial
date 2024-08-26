@@ -106,7 +106,7 @@ export LIBSCPP       = -L$(NETCDFPATH)/lib -lnetcdf_c++ -lnetcdff -lnetcdf
 ~~~
 
 ## 3.2. Fixing bugs
- ※ If you cannot fine the 'atlas' folder, you can obtain it from LOVECLIM v1.3. 
+ ※ If you cannot find the 'atlas' folder, you can obtain it from LOVECLIM v1.3. 
 
 ### 3.2.1. In lines of 80, 105, 135, and 174 of the file '/home/[userid]/LOVECLIM/RUN/tools/atlas/src/post/input.f', delete the second argument of the 'error' subroutine as shown below.
 
